@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(17 ,17 ,17);
+}
+.heading{
+    color: white;
+    margin: 25px 20px;
+}
+#form{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 100%; */
+}
+#form>input{
+    padding: 15px;
+    color: white;
+}
+#button button{
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+}
+#filter{
+    width: 80%;
+    margin: auto;
+}
+#filter input{
+width: 80%;
+margin: auto;
+padding: 15px;
+color: white;
+margin: 25px 0px;
+}
+#table_data{
+width: 90%;
+margin: auto;
+}
+#table{
+    color: white;
+    /* border: 1px solid white; */
+    width: 100%;
+    text-align: start;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+th{
+    border: 1px solid white;
+    padding: 25px;
+}
+td{
+    border: 1px solid white;
+    padding: 25px;
+}
+.last_col{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+
+}
+.delete , .edit{
+    cursor: pointer;    
+}

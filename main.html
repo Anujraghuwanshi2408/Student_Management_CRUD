@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Student Management CRUD</h1>
+    <form action="" id="form">
+        <input type="text"  id = "Name" placeholder="Name" required>
+        <input type="email" name="" id="Email" placeholder="Email" required>
+        <input type="text" name="" id="GPA" placeholder="GPA" required>
+        <input type="number" name="" id="Age" placeholder="Age" required>
+        <input type="text" name="" id="Degree" placeholder="Degree" required>
+        <div id="button">
+            <button type="submit" id="addUser">Add Student</button>
+        </div>
+    </form>
+    <div id="filter">
+        <input type="text" id="filter-input" placeholder="Search By Name, email or degree">
+    </div>
+    <div id="table_data">
+        <table id="table">
+            <thead>
+                <tr>
+                <th>Id</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- <td>1</td>
+                <td>anuj</td>
+                <td>anuj1332gmsil.com</td>
+                <td>24</td>
+                <td>9.8</td>
+                <td class="last_col">b.tech
+                    <div class="edit"  >
+                        <img src="images/edit.png" alt="edit">
+                    </div>
+                    <div class="delete" >
+                        <img src="images/delete.png" alt="delete">
+                    </div>
+                </td> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
